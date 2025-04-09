@@ -44,10 +44,6 @@ def mostrar_contrasenas():
     text_box.configure(state="disabled")
 
 
-def eliminar_contraseña():
-    print("Eliminar contraseña")
-
-
 boton_generar = customtkinter.CTkButton(
     app, text="Generar Contraseña", command=button_callback
 )
